@@ -1,0 +1,5 @@
+# questi file non verranno toccati da git
+
+node_modules
+.env
+note.txt

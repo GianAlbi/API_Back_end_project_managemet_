@@ -1,0 +1,27 @@
+npm init -y
+-------------------------------------------------
+Nel file json:
+
+ "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+
+Oppure si usa watch per farlo girare in background
+"start": "node --watch index.js"
+
+npm run dev
+-------------------------------------------------
+Per prittier:
+npm install --save-dev --save-exact prettier
+Per inizializzare prittier:
+npx prettier . --write
+npx prettier . --check
+-------------------------------------------------
+git init
+git status
+
+--ANCORA DA FARE--
+git add .
+git commit -m "add prettier to code base"
+--------------------------------------------------

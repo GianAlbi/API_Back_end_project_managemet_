@@ -1,0 +1,5 @@
+
+# questi file non verranno toccati da prettier
+
+node_modules
+.env 
